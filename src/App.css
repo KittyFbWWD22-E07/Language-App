@@ -1,0 +1,76 @@
+
+:root {
+  --background-gradient: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+  --grey: #403e3e;
+  --darkgrey:#313030;
+
+}
+
+
+.header p{
+  color: rgb(56, 56, 56);
+  font-size: 1em;
+  margin-bottom: 0.2em;
+}
+
+.welcome {
+    width:50em;
+    display: flex;
+    margin-top: 16em;
+}
+
+.welcome h1 {
+  font-size: 4.5em;
+  color: var(--darkgrey)
+}
+
+  /* Reset select */
+select {
+  appearance: none;
+  outline: 0;
+  border: 0;
+  box-shadow: none;
+  color: rgb(243, 227, 135);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  flex: 1;
+  padding: 0 1em;
+  border: none;
+  width: 25em;
+  border-radius: 3px;
+  background-color: var(--darkgrey);
+  cursor: pointer;
+}
+
+ /* Custom Select wrapper */
+.select-container {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  border-radius: .25em;
+  overflow: hidden;
+}
+
+ /* Arrow */
+ .select-container::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.2em;
+  padding: 1em 1em;
+  background-color: var(--grey);
+  transition: .25s all ease;
+  pointer-events: none;
+}
+/* Transition */
+.select-container:hover::after {
+  color: #f39c12;
+}
+
+select ,option {
+  color: rgb(243, 227, 135);
+
+
+}
