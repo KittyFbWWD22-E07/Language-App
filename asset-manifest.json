@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Language-App/static/css/main.f3669414.css",
+    "main.js": "/Language-App/static/js/main.656691de.js",
+    "static/js/787.a0be4afd.chunk.js": "/Language-App/static/js/787.a0be4afd.chunk.js",
+    "index.html": "/Language-App/index.html",
+    "main.f3669414.css.map": "/Language-App/static/css/main.f3669414.css.map",
+    "main.656691de.js.map": "/Language-App/static/js/main.656691de.js.map",
+    "787.a0be4afd.chunk.js.map": "/Language-App/static/js/787.a0be4afd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3669414.css",
+    "static/js/main.656691de.js"
+  ]
+}
